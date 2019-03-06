@@ -15,4 +15,3 @@ No. Just give credits to developer who made your life easier :relaxed:
 [Lalapeta Prasanth Kumar](https://www.linkedin.com/in/prasanth-kumar-lalapeta-369a42a9)
 
 Copyright ©2019 All rights reserved by [Lalapeta Prasanth Kumar](https://github.com/prasanthLalapeta)
-# prasanthLalapeta.github.io
