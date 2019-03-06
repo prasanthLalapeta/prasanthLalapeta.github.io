@@ -1,0 +1,128 @@
+.app-fixed__line {
+  width: 100%;
+  height: 3px;
+  position: fixed;
+  background-color: $primary-clr;
+  z-index: 1000;
+}
+.line-helper {
+  width: 50%;
+  height: 2px;
+  background: $primary-txt-clr;
+  margin: 0px 20px;
+  border-radius: 2px;
+}
+.highlighter-container {
+  position: absolute;
+  top: 50px;
+  left: -115px;
+  z-index: -1;
+  .highlighter {
+    font-size: 110px;
+    color: hsla(225, 15%, 43%, 0.09);
+  }
+  .box-highlighter {
+    width: 90px;
+    height: 175px;
+    border: 5px solid rgba(93, 101, 126, 0.09);
+    margin-top: -130px;
+    border-left: initial;
+  }
+}
+.hlp-line {
+  width: 80%;
+  position: absolute;
+  height: 2px;
+  border-radius: 2px;
+  background: hsla(0, 0%, 87%, 0.49);
+  top: 20px;
+  z-index: -1;
+}
+.primary-highlight__txt {
+  position: relative;
+  font-size: 125px;
+  color: $primary-clr;
+  .extra {
+    position: absolute;
+    font-size: 40px;
+    top: 25px;
+  }
+}
+.secondary-highlight__txt {
+  font-size: 24px;
+  color: $primary-txt-clr;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.dashed-box {
+  width: 135px;
+  height: 150px;
+  border: 2px dashed #ddd;
+}
+.wrkng-txt {
+  margin-left: -76px;
+}
+.call-txt {
+  font-size: 30px;
+  color: $primary-clr;
+}
+.call-txt__header {
+  font-size: 24px;
+  color: $secondary-txt-clr;
+}
+.txt-align__right {
+  text-align: right;
+}
+.txt-justify {
+  text-align: justify;
+}
+.arrow-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.big-arrow {
+  display: block;
+}
+.small-arrow {
+  display: none;
+}
+.recognising-text {
+  margin-left: auto;
+}
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.footer-header {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.footer-following {
+  display: flex;
+  flex-wrap: auto;
+  margin-bottom: 25px;
+}
+.following-item {
+  margin: 0px 10px;
+  .fa {
+    font-size: 34px;
+    color: #fff;
+  }
+}
+.developed-by {
+  text-align: center;
+}
+.intro-txt {
+  opacity: 0.4;
+}
+.year-mention {
+  text-align: right;
+  font-style: italic;
+}
