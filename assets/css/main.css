@@ -449,7 +449,8 @@ footer {
     .two-column-grid__fluid .grid-item, .two-column-grid__fixed .grid-item, .two-column-grid__fixed--reverse .grid-item, .column-grid .grid-item {
       width: 100%;
       text-align: center;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      padding-left: 0px; }
 
   .normal-grid__column {
     justify-content: center; }
