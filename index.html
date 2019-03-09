@@ -257,65 +257,51 @@
 		<!-- Scripts -->
 		<script type="text/javascript">
 			document.getElementById("hireBtn").onclick = function () {
-				ga('send', {
-				  hitType: 'event',
-				  eventCategory: 'Hiring',
-				  eventAction: 'Hire me',
-				  eventLabel: 'Click hire me btn'
+				gtag('event', 'click', {
+				  event_category: 'Hiring',
+				  event_label: 'Click hire me btn'
 				});
 				window.open("https://www.linkedin.com/in/prasanth-kumar-lalapeta-369a42a9/");
 			};
 			document.getElementById("resumeBtn").onclick = function () {
-				ga('send', {
-					hitType: 'event',
-					eventCategory: 'Downloads',
-					eventAction: 'resume',
-					eventLabel: 'Downloading my resume'
+				gtag('event', 'click', {
+					event_category: 'Downloads',
+					event_label: 'Downloading my resume'
 				});
 				window.open("https://drive.google.com/open?id=1qOROpRQxCnqhS7RKhyUBkWNMioOLpLQD");
 			};
 			document.getElementById("linkedinBtn").onclick = function () {
-				ga('send', {
-					hitType: 'event',
-					eventCategory: 'Follow Me',
-					eventAction: 'linkedin',
-					eventLabel: 'Follow me in linkedin'
+				gtag('event', 'click', {
+					event_category: 'Follow Me',
+					event_label: 'Follow me in linkedin'
 				});
 				window.open("https://www.linkedin.com/in/prasanth-kumar-lalapeta-369a42a9");
 			};
 			document.getElementById("githubBtn").onclick = function () {
-				ga('send', {
-					hitType: 'event',
-					eventCategory: 'Follow Me',
-					eventAction: 'github',
-					eventLabel: 'Follow me in github'
+				gtag('event', 'click', {
+					event_category: 'Follow Me',
+					event_label: 'Follow me in github'
 				});
 				window.open("https://github.com/prasanthLalapeta");
 			};
 			document.getElementById("mediumBtn").onclick = function () {
-				ga('send', {
-					hitType: 'event',
-					eventCategory: 'Follow Me',
-					eventAction: 'medium',
-					eventLabel: 'Follow me in medium'
+				gtag('event', 'click', {
+					event_category: 'Follow Me',
+					event_label: 'Follow me in medium'
 				});
 				window.open("https://medium.com/@PrasanthLalapet");
 			};
 			document.getElementById("codepenBtn").onclick = function () {
-				ga('send', {
-					hitType: 'event',
-					eventCategory: 'Follow Me',
-					eventAction: 'codepen',
-					eventLabel: 'Follow me in codepen'
+				gtag('event', 'click', {
+					event_category: 'Follow Me',
+					event_label: 'Follow me in codepen'
 				});
 				window.open("https://codepen.io/prasanthlalapeta-the-styleful/");
 			};
 			document.getElementById("facebookBtn").onclick = function () {
-				ga('send', {
-					hitType: 'event',
-					eventCategory: 'Follow Me',
-					eventAction: 'facebook',
-					eventLabel: 'Follow me in facebook'
+				gtag('event', 'click', {
+					event_category: 'Follow Me',
+					event_label: 'Follow me in facebook'
 				});
 				window.open("https://www.facebook.com/lalapeta.prasanthkumar");
 			};
